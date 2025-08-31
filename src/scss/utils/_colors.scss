@@ -1,0 +1,29 @@
+:root {
+  --forge-c-dark: #191813;
+  --forge-c-faint: #c9c7b8;
+  --forge-c-beige: #b5b3a4;
+  --forge-c-tan: #444444;
+  --forge-c-white: #ffffff;
+  --forge-c-black: #000000;
+  --forge-c-groove: #eeede0;
+}
+
+.theme-dark {
+  --forge-c-dark: #c9c7b8;
+  --forge-c-faint: #191813;
+  --forge-c-beige: #444444;
+  --forge-c-tan: #b5b3a4;
+  --forge-c-white: #000000;
+  --forge-c-black: #ffffff;
+  --forge-c-groove: #11121f;
+}
+
+$c-white: var(--forge-c-white);
+$c-black: var(--forge-c-black);
+
+$c-dark: var(--forge-c-dark);
+$c-faint: var(--forge-c-faint);
+$c-beige: var(--forge-c-beige);
+$c-tan: var(--forge-c-tan);
+
+$c-groove: var(--forge-c-groove);
